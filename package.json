@@ -1,0 +1,20 @@
+{
+  "name": "protractor-cucumber-show-case",
+  "version": "1.0.0",
+  "description": "Showcase for protractor-cucumber-framework",
+  
+  "scripts": {
+    "start": "httpster -d testapp/ -p `node -p 8080`",
+    "test": "./node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+
+  "dependencies" : { 
+    "cucumber": "^1.0.0",
+    "protractor": "^3.2.0"
+  },
+  
+  "devDependencies": {
+  	"protractor-cucumber-framework" : "0.6.0",
+    "httpster": "^1.0.1"
+  }
+}
