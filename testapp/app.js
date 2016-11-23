@@ -1,9 +1,8 @@
 var app = angular.module('myApp', []);
 
-function TestappCtrl($scope, $window) { 
-
+function TestappCtrl() { 
 }
 
-TestappCtrl.$inject = ['$scope', '$window'];
+TestappCtrl.$inject = [];
 
 app.controller('TestappCtrl', TestappCtrl);
